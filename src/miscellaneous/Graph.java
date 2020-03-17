@@ -8,7 +8,6 @@ public class Graph {
 
     public Graph(int v) {
         this.v = v;
-        //TODO 这有什么作用
         adj = new LinkedList[v];
         for (int i = 0; i < v;i++) {
             adj[i] = new LinkedList<>();
